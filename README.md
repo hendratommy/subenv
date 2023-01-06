@@ -18,7 +18,7 @@ Usage of subenv:
   -e value
         File to use as env source
   -noos
-        This flag can only be use when using -f. If set to true, will
+        This flag can only be use when using -e. If set to true, will
         not use OS environment variables
   -v    Print version
   -version

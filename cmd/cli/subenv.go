@@ -94,7 +94,7 @@ func main() {
 		subst *subenv.EnvSubst
 	)
 	flag.Var(&envFiles, "e", "File to use as env source")
-	flag.BoolVar(&noOS, "noos", false, `This flag can only be use when using -f. If set to true, will 
+	flag.BoolVar(&noOS, "noos", false, `This flag can only be use when using -e. If set to true, will 
 not use OS environment variables`)
 	flag.StringVar(&encName, "c", "", "Encoder name to use, available encoder: [ base64 ]")
 	flag.StringVar(&decName, "d", "", "Decoder name to use, available decoder: [ base64 ]")
